@@ -11,4 +11,4 @@ Trollkit is a discord self bot focused on making trolling and raiding easier and
 - crash - sends a crash gif/video from assets/crash
 
 # License:
-[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[GNU General Public License v3.0](https://github.com/mega145/TROLLKIT/blob/main/LICENSE)
