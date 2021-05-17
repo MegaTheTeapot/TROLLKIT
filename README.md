@@ -2,7 +2,7 @@
 Trollkit is a discord self bot focused on making trolling and raiding easier and more fun
 
 # How do i download it:
-## Its easy just go here and download the zip in the latest version!
+## Its easy just go [here](https://github.com/mega145/TROLLKIT/releases) and download the zip in the latest version!
 [VERSIONS](https://github.com/mega145/TROLLKIT/releases)
 
 # Commands:
