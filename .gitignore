@@ -5,6 +5,7 @@
 *output
 *__pycache__
 *.vscode
+pyinstaller_config.json
 
 # User-specific files
 *.rsuser
