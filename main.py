@@ -18,7 +18,7 @@ prefix = f['prefix']
 
 #ascii_banner = pyfiglet.figlet_format("TROLLKIT")
 ascii_banner = " _____ ____   ___  _     _     _  _____ _____ \n|_   _|  _ \\ / _ \\| |   | |   | |/ /_ _|_   _|\n  | | | |_) | | | | |   | |   | ' / | |  | |  \n  | | |  _ <| |_| | |___| |___| . \\ | |  | |  \n  |_| |_| \\_\\\\___/|_____|_____|_|\\_\\___| |_|  \n                                              \n"
-token = input(f"{ascii_banner}____________________________________________\n\nPlease input your discord token\n>>>")
+token = input(f"{ascii_banner}____________________________________________\n\nPlease input your discord token\nIf you dont know how to get it (github.com/mega145/TROLLKIT#how-to-get-my-discord-token)\n>>>")
 os.system('cls')
 
 
@@ -41,7 +41,7 @@ async def on_ready():
 
 
 #Play command not working properly in the exe file
-#TODO: Make pynacl library import properly in the exe
+#TODO: Make pynacl library import properly in the exe ; Asked stack Overflow (https://stackoverflow.com/questions/67581012/pyinstaller-error-while-trying-to-import-pynacl)
 @client.command(pass_context=True,description="Plays an audio file in your current vc (works with mp4's too)")
 async def play(ctx,media=None):
     global ch
