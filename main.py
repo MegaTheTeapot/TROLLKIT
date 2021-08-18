@@ -8,6 +8,7 @@
 
 import os,json
 import time
+from rich import print
 import discord
 from discord.ext import commands
 from discord.player import FFmpegPCMAudio
@@ -16,8 +17,11 @@ f = open('assets/config.json')
 f = json.load(f)
 prefix = f['prefix']
 
+buglist = "BUGS:\nPlay command doesnt work on the exe file (source file works)\nDiscord [red]PATCHED[/] crash gifs/videos so the command was deleted"
+commands_list = "Commands:\n- play - Plays an audio file in your current vc (works with mp4's too)\n- spam - Sends contents of txt file in assets/texts (you can also specify the delay)\n"
 #ascii_banner = pyfiglet.figlet_format("TROLLKIT")
 ascii_banner = " _____ ____   ___  _     _     _  _____ _____ \n|_   _|  _ \\ / _ \\| |   | |   | |/ /_ _|_   _|\n  | | | |_) | | | | |   | |   | ' / | |  | |  \n  | | |  _ <| |_| | |___| |___| . \\ | |  | |  \n  |_| |_| \\_\\\\___/|_____|_____|_|\\_\\___| |_|  \n                                              \n"
+print(buglist)
 token = input(f"{ascii_banner}____________________________________________\n\nPlease input your discord token\nIf you dont know how to get it (github.com/mega145/TROLLKIT#how-to-get-my-discord-token)\n>>>")
 os.system('cls')
 
@@ -29,8 +33,6 @@ def leave(error=None):
     
     print('Ended!')
 
-buglist = "BUGS:\nPlay command doesnt work on the exe file (source file works)"
-commands_list = "Commands:\n- play - Plays an audio file in your current vc (works with mp4's too)\n- spam - Sends contents of txt file in assets/texts (you can also specify the delay)\n- crash - sends a crash gif/video from assets/crash"
 
 @client.event
 async def on_ready():
