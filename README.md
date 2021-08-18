@@ -1,3 +1,6 @@
+# IMPORTANT: i will switch the project to c++ for ease of compilation Some commands may be deleted
+
+
 # TROLLKIT
 Trollkit is a discord self bot focused on making trolling and raiding easier and more fun
 
