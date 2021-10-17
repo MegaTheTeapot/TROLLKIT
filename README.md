@@ -1,4 +1,4 @@
-# IMPORTANT: i will switch the project to c++ for ease of compilation Some commands may be deleted
+# IMPORTANT: This project is getting archived because the changes in the discord api
 
 
 # TROLLKIT
